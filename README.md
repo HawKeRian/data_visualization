@@ -1,6 +1,6 @@
 # Data Visualization Component
 
-## Application Folder
+## Application
 - in this folder have applications for windows32, windows64, linux32, linux64 that ready to run without a processing compiler program.
 - already have an input for running application
 
