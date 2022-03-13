@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Directions Service (Complex)</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet"href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
+    <!-- <script src="./csvReader.js"></script>
+    <script src="./index.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8iB21q6MQ1YnaXV06Y9NZgTrPCI1mTeE&libraries=&v=weekly" type="text/javascript">
+    </script>
+  </head> -->
+  <body>
+    <label for="uploadFile">Get CSV File</label>
+    <input type="file" id="uploadFile" accept=".csv"/>
+
+    <button id="show-map">Show Map</button>
+    <button type="button" onclick="getWayPoints();">Show WayPoints</button>
+    <!-- <button onclick="download_csv_file()"> Download CSV </button>   -->
+    <button type="button" onclick="getStartHour();">Get Time</button>
+    <!-- <button onclick="download_csv_file()"> Download CSV </button>   -->
+    <button type="button" onclick="getLatLng();">Show LatLng</button>
+    <!-- <button onclick="download_csv_file()"> Download CSV </button>   -->
+
+    <script type="text/javascript" src="./test.js"></script>
+
+    <div id="map"></div>
+    &nbsp;
+    <div id="warnings-panel"></div>
+    
+    
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <!-- <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8iB21q6MQ1YnaXV06Y9NZgTrPCI1mTeE&callback=initMap&libraries=&v=weekly" type="text/javascript"
+      async defer
+    ></script> -->
+  </body>
+</html>

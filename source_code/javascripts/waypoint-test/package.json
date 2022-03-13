@@ -1,0 +1,17 @@
+{
+  "name": "waypoint-test",
+  "version": "1.0.0",
+  "description": "Waypoint-Test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "index.html"
+  },
+  "author": "Nong",
+  "license": "ISC",
+  "dependencies": {
+    "d3-request": "^1.0.6",
+    "jquery-csv": "^1.0.21"
+  }
+}
